@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="Css/style.css">
+
+    <link rel="stylesheet" href="Css/header.css">
+    <link rel="stylesheet" href="Css/inicio.css">
+    <link rel="stylesheet" href="Css/sobre-mi.css">
+    <link rel="stylesheet" href="Css/logos.css">
+    <link rel="stylesheet" href="Css/footer.css">
+    <link rel="stylesheet" href="Css/correo.css">
+    <link rel="stylesheet" href="Css/Proyectos.css">
+    <link rel="stylesheet" href="reponsive-page/responsive.css">
+    <script src="https://kit.fontawesome.com/242a8f5c81.js" crossorigin="anonymous"></script>
+    <script src="Js/navbar.js" defer></script>
+</head>
+
+<body>
+    <header class="header" id="header1">
+        <div class="navbar">
+            <ul class="navbar-links">
+                <li><a href="#portada1" class="link-hover">Inicio</a></li>
+                <li><a href="#sobreMi" class="link-hover">Sobre mi</a></li>
+                <li><a href="#Habilidades" class="link-hover">Habilidades</a></li>
+                <li><a href="#contacto" class="link-hover">Contacto</a></li>
+
+                <li><a href="Curriculum/CurrículumVitaeEstebanBentancorES.pdf" download
+                        title="Aqui puedes descargar mi curriculum" class="link-cv">cv</a></li>
+
+            </ul>
+        </div>
+    </header>
+
+    <div id="portada1" class="portada">
+        <div id="nombre">
+            <h1>Hola! Soy Esteban.</h1>
+        </div>
+        <div id="parrafo">
+            <p class="Escritura">Jr. Front-end Web developer.</p>
+        </div>
+    </div>
+
+    <div class="Subtitulos" id="sobreMi">
+        <h2>Sobre mi</h2>
+    </div>
+
+    <!-- aqui esta la Ruta de mi Foto-->
+
+    <div class="imagen">
+        <img src="imagenes/Yo-removebg-preview.png" alt="Esteban Bentancor">
+        <p>
+            Me llamo Esteban Bentancor, soy un Jr. Front-end Web developer.
+            Soy de Uruguay y me apasiona la programación, hace más de un año que comencé a indagar en el mundo de IT y
+            quiero seguir aumentando mis capacidades.
+        </p>
+    </div>
+    </div>
+    <div class="descripcion-esteban">
+
+        <div class="Subtitulos" id="Habilidades">
+            <h2>Habilidades</h2>
+        </div>
+
+
+
+
+        <div class="logos">
+            <a class="html" title="Html"><i class="fa-brands fa-html5"></i></a>
+            <a class="css" title="Css"><i class="fa-brands fa-css3-alt"></i></a>
+            <a class="js" title="Javascript"><i class="fa-brands fa-square-js"></i></a>
+            <a class="git" title="Git"><i class="fa-brands fa-git-alt"></i></a>
+        </div>
+    
+        <div class="Subtitulos" id="Contacto">
+            <h2>Contacto</h2>
+        </div>
+
+        <div class="correo" id="contacto">
+            <form action="https://formsubmit.co/ebentancor341@gmail.com" method="POST">
+                <input type="text" placeholder="Nombre" required>
+                <input type="text" placeholder="Email" required>
+                <textarea name="" placeholder="Mensaje" id="Mensaje" cols="30" rows="10" required></textarea>
+                <input type="submit" class="Enviar" value="Enviar">
+
+                <input type="hidden" name="_next" value="https://esteban-bentancor.netlify.app">
+            <input type="hidden" name="_captcha" value="false">
+            </form>
+
+        </div>
+        <footer>
+            <div class="navbar-footer">
+                <a class="Git-hub" title="Git-hub" href="https://github.com/estebanbent4"><i class="fa-brands fa-github"></i></a>
+                <a class="LinkedIn" title="LinkedIn" href="https://www.linkedin.com/in/esteban-bentancor-2170b2277"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                        
+            </div>
+            <p class="parrafo-Footer">En mi Git-hub podras encontrar mis futuros proyectos :)</p>
+        </footer>
+</body>
+
+</html>
