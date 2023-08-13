@@ -28,30 +28,30 @@
     align-items: center;
     padding: 40px;
     font-size: 25px;
-    filter: blur(8px);
     color: var(--color-2);
     transition: .3s;
     font-family: 'IBM Plex Mono', monospace;
-
+    border-radius: 50px;
+    background: linear-gradient(145deg, #23272b, #23272b);
+    
 }
 
 .imagen p:hover {
     transform: translateY(-30px);
-    filter: blur(0);
     transition: .5s;
-    border-radius: 50px;
-
-    background: linear-gradient(145deg, #30363c, #00ff5919);
-    box-shadow: 5px 5px 11px #2e343a, -5px -5px 11px #2e343a;
+    box-shadow:5px 5px 20px #13d15691, -5px -5px 20px #0ae25691;
+    background: linear-gradient(145deg, #30363c, #00ff594d);
+    cursor: pointer;
+    border: 1px solid rgba(118, 118, 118, 0.373);
 }
 
 .imagen img {
     width: 400px;
     height: 500px;
-    filter: blur(8px);
+    background: linear-gradient(145deg, #23272b, #23272b);
     margin: 100px;
     transition: .5s;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 .imagen img:hover {
@@ -59,8 +59,8 @@
     filter: blur(0);
     transition: .5s;
     border-radius: 50px;
-    background: linear-gradient(145deg, #30363c, #00ff595a);
-    box-shadow: 5px 5px 11px #2e343a, -5px -5px 11px #2e343a;
+    background: linear-gradient(145deg, #30363c, #05792d5a);
+    box-shadow: 5px 5px 20px #13d15691, -5px -5px 20px #0ae25691;
 
 }
 
