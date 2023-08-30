@@ -28,13 +28,13 @@ background: linear-gradient(145deg, #24282bae, #3940488b);
     color: #04db4f;
     box-shadow: 5px 5px 11px #04db4f91, -5px -5px 11px #04db4f91;
     transform: translateY(-10px);
-    transition: .5s;
+    transition: .2s;
 }
 .navbar-footer a.Git-hub:hover{
     color: #04db4f;
     box-shadow: -5px -5px 11px #04db4f91, 5px 5px 11px #04db4f91;
     transform: translateY(-10px);
-    transition: .5s;
+    transition: .2s;
 }
 
 .parrafo-Footer{

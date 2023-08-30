@@ -1,7 +1,10 @@
 .correo{
     display: flex;
     justify-content: center;
+    
     margin-top: 100px;
+    
+
 }
 
 .correo form input,textarea{
@@ -27,22 +30,36 @@
 
 .correo input:focus{
     transition: .2s;
-    border-bottom: 3px solid var(--color-3);
+    border-bottom: 2px solid var(--color-3);
     background: linear-gradient(145deg, #24282bd4, #24262ad4);
 }
 
 .correo textarea:focus{
     transition: .2s;
-    border-bottom: 3px solid var(--color-3);
+    border-bottom: 2px solid var(--color-3);
     background: linear-gradient(145deg, #24282bd4, #24262ad4);
 }
 
 
 
+.correo .Enviar:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    transition: transform 0.3s, border-color 4s infinite alternate;
+    border: 1px solid gray;
+}
 
-.correo .Enviar:hover{
-    transform: translateY(10px);
-cursor: pointer;
-transition: 0.5s;
-box-shadow: 5px 5px 11px #04db4f91, -5px -5px 11px #04db4f91;
+@keyframes borderAnimation {
+    25% {
+        border-color:  gray;
+    }
+    50% {
+        border-color: rgb(0, 255, 81);
+    }
+    75% {
+        border-color: gray;
+    }
+    100% {
+        border-color: rgb(0, 255, 81);
+    }
 }

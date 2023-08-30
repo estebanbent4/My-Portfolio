@@ -27,8 +27,8 @@
     color: var(--color-3);
     transform: scale(1.1);
     transform: translateY(-25px);
-    transition: .3,5s;
-    
+    transition: .2s;
+    border: 1px solid rgb(135, 135, 135);
     background: linear-gradient(145deg, #30363c, #04db4f16);
     box-shadow: 5px 5px 11px #2e343a, -5px -5px 11px #3c444c;
 }
@@ -37,29 +37,33 @@
     color: var(--color-3);
     transform: scale(1.1);
     transform: translateY(-25px);
-    transition: .3, 5s;
+    transition: .2s;
     
     background: linear-gradient(145deg, #30363c, #04db4f16);
     box-shadow: 5px 5px 11px #2e343a, -5px -5px 11px #3c444c;
+    border: 1px solid rgb(135, 135, 135);
+    
 }
 
 .logos a.js:hover {
     color: var(--color-3);
     transform: scale(1.1);
     transform: translateY(-25px);
-    transition: .3, 5s;
+    transition: .2s;
     
     background: linear-gradient(145deg, #30363c, #04db4f16);
     box-shadow: 5px 5px 11px #2e343a, -5px -5px 11px #3c444c;
+    border: 1px solid rgb(135, 135, 135);
 }
 .logos a.git:hover {
     color: var(--color-3);
     transform: scale(1.1);
     transform: translateY(-25px);
-    transition: .3, 5s;
+    transition: .2s;
     
     background: linear-gradient(145deg, #30363c, #04db4f16);
     box-shadow: 5px 5px 11px #2e343a, -5px -5px 11px #3c444c;
+    border: 1px solid rgb(135, 135, 135);
 }
 
 /* fin logos*/
