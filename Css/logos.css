@@ -20,6 +20,7 @@
     transition: .5s;
     border-radius: 50px;
     background: linear-gradient(145deg, #24282bae, #3940488b);
+    cursor:pointer;
     
 }
 
@@ -29,8 +30,10 @@
     transform: translateY(-25px);
     transition: .2s;
     border: 1px solid rgb(135, 135, 135);
-    background: linear-gradient(145deg, #30363c, #04db4f16);
+     background: linear-gradient(145deg, #2d2f36, #013413b4);
+
     box-shadow: 5px 5px 11px #2e343a, -5px -5px 11px #3c444c;
+   
 }
 
 .logos a.css:hover {
@@ -39,9 +42,11 @@
     transform: translateY(-25px);
     transition: .2s;
     
-    background: linear-gradient(145deg, #30363c, #04db4f16);
+    background: linear-gradient(145deg, #2d2f36, #013413b4);
+
     box-shadow: 5px 5px 11px #2e343a, -5px -5px 11px #3c444c;
     border: 1px solid rgb(135, 135, 135);
+    cursor:pointer;
     
 }
 
@@ -50,20 +55,20 @@
     transform: scale(1.1);
     transform: translateY(-25px);
     transition: .2s;
-    
-    background: linear-gradient(145deg, #30363c, #04db4f16);
+    background: linear-gradient(145deg, #2d2f36, #013413b4);
     box-shadow: 5px 5px 11px #2e343a, -5px -5px 11px #3c444c;
     border: 1px solid rgb(135, 135, 135);
+    cursor:pointer;
 }
 .logos a.git:hover {
     color: var(--color-3);
     transform: scale(1.1);
     transform: translateY(-25px);
     transition: .2s;
-    
-    background: linear-gradient(145deg, #30363c, #04db4f16);
+    background: linear-gradient(145deg, #2d2f36, #013413b4);
     box-shadow: 5px 5px 11px #2e343a, -5px -5px 11px #3c444c;
     border: 1px solid rgb(135, 135, 135);
+    cursor:pointer;
 }
 
 /* fin logos*/

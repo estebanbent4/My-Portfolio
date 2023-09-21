@@ -1,10 +1,17 @@
+.container-correo{
+    display: flex;
+    justify-content: center;
+   
+}
+
 .correo{
     display: flex;
     justify-content: center;
-    
     margin-top: 100px;
-    
-
+    border: 3px  var(--color-3) dashed;
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
 }
 
 .correo form input,textarea{
@@ -20,7 +27,14 @@
     outline:0;
     color: var(--color-3);
     text-transform: uppercase, lowercase;
-    transition: .5s;
+    transition: .3s;
+}
+
+.correo form h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'IBM Plex Mono', monospace;;
+    color: var(--color-3);
 }
 
 
@@ -45,21 +59,9 @@
 .correo .Enviar:hover {
     transform: translateY(-5px);
     cursor: pointer;
-    transition: transform 0.3s, border-color 4s infinite alternate;
-    border: 1px solid gray;
+    background:  #1e211f;
+    box-shadow: 5px 5px 11px #2e343a;
+    border: 1px solid var(--color-3);
 }
 
-@keyframes borderAnimation {
-    25% {
-        border-color:  gray;
-    }
-    50% {
-        border-color: rgb(0, 255, 81);
-    }
-    75% {
-        border-color: gray;
-    }
-    100% {
-        border-color: rgb(0, 255, 81);
-    }
-}
+

@@ -40,7 +40,7 @@
     transform: translateY(-30px);
     transition: .5s;
     box-shadow:5px 5px 20px #393939, -5px -5px 20px #2e2e2e;
-    background: linear-gradient(145deg, #30363c, #013413b4);
+    background: linear-gradient(145deg, #2d2f36, #013413b4);
     cursor: pointer;
     border: 1px solid rgb(135, 135, 135);
 }
@@ -56,10 +56,11 @@
 
 .imagen img:hover {
     transform: translateY(-30px);
-    filter: blur(0);
+    
     transition: .5s;
     border-radius: 50px;
-    background: linear-gradient(145deg, #30363c, #05792d5a);
+    background: linear-gradient(145deg, #2d2f36, #013413b4);
+
     box-shadow: 5px 5px 20px #393939, -5px -5px 20px #2e2e2e;
     border: 1px solid rgb(135, 135, 135);
 }

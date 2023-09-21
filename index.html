@@ -14,9 +14,12 @@
     <link rel="stylesheet" href="Css/footer.css">
     <link rel="stylesheet" href="Css/correo.css">
     <link rel="stylesheet" href="Css/Proyectos.css">
+    <link rel="stylesheet" href="Css/responsibe.css">
     <link rel="stylesheet" href="reponsive-page/responsive.css">
     <script src="https://kit.fontawesome.com/242a8f5c81.js" crossorigin="anonymous"></script>
     <script src="Js/navbar.js" defer></script>
+    <script src="Js/boton-correo.js" defer></script>
+<script src="Js/menu-hamburgueza.js" defer></script>
 </head>
 
 <body>
@@ -32,6 +35,11 @@
                         title="Aqui puedes descargar mi curriculum" class="link-cv">cv</a></li>
 
             </ul>
+        </div>
+        <div class="menu-bars">
+            <span class="linea1"></span>
+            <span class="linea2"></span>
+            <span class="linea3"></span>
         </div>
     </header>
 
@@ -53,8 +61,8 @@
     <div class="imagen">
         <img src="imagenes/Yo-removebg-preview.png" alt="Esteban Bentancor">
         <p>
-            Me llamo Esteban Bentancor, soy un Jr. Front-end Web developer y
-            Soy de Uruguay, hace más de un año que comencé a indagar en el mundo de IT y
+            Me llamo Esteban Bentancor, soy un Jr. Front-end developer y
+            Soy de Uruguay, hace casi años 2 que comencé a indagar en el mundo de IT y
             quiero seguir aumentando mis capacidades.
         </p>
     </div>
@@ -64,10 +72,6 @@
         <div class="Subtitulos" id="Habilidades">
             <h2>Habilidades</h2>
         </div>
-
-
-
-
         <div class="logos">
             <a class="html" title="Html"><i class="fa-brands fa-html5"></i></a>
             <a class="css" title="Css"><i class="fa-brands fa-css3-alt"></i></a>
@@ -78,24 +82,31 @@
         <div class="Subtitulos" id="Contacto">
             <h2>Contacto</h2>
         </div>
-
+    <div class="container-correo">
         <div class="correo" id="contacto">
-            <form action="2a964b81f5373fc36cdf10151ba500f5" method="POST">
-                <input type="text" name="nombre" placeholder="Nombre" required>
-                <input type="email" name="email" placeholder="Email" required>
-                <textarea name="mensaje" placeholder="Mensaje" id="Mensaje" cols="30" rows="10" required></textarea>
-                <input type="submit" class="Enviar" value="Enviar">
-                <input type="hidden" name="_next" value="https://estebanbent4.github.io/My-Portfolio/">
-                <input type="hidden" name="_captcha" value="false">
-            </form>
-            
-
+          
+            <form action="https://formsubmit.co/ebentancor341@gmail.com" method="POST" />>
+                     <div class=""><h2>Enviame un correo</h2></div> 
+                     <input type="text"  name="nombre" placeholder="Nombre">
+                    <input type="email" id="email" name="email" placeholder="Email" required> 
+                    <textarea name="mensaje" id="mensaje" placeholder="Mensaje" id="Mensaje" cols="30" rows="10" required></textarea>
+                    <input type="submit" class="Enviar" id="boton-correo" value="Enviar">
+                    <input type="hidden" name="_next" value="https://estebanbent4.github.io/My-Portfolio/">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+            </div>
         </div>
+       
         <footer>
             <div class="navbar-footer">
-                <a class="Git-hub" title="Git-hub" href="https://github.com/estebanbent4"><i class="fa-brands fa-github"></i></a>
-                <a class="LinkedIn" title="LinkedIn" href="https://www.linkedin.com/in/esteban-bentancor-2170b2277"><i
+              
+                      <a class="Git-hub" title="Git-hub" href="https://github.com/estebanbent4"><i class="fa-brands fa-github"></i></a>
+           
+              
+               
+                <a title="LinkedIn" class='LinkedIn' href="https://www.linkedin.com/in/esteban-bentancor-2170b2277"><i
                         class="fa-brands fa-linkedin"></i></a>
+             
                         
             </div>
             <p class="parrafo-Footer">En mi Git-hub podras encontrar mis futuros proyectos :)</p>
