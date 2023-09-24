@@ -1,4 +1,6 @@
-document.querySelector('.menu-bars').addEventListener('click', animatebars);
+let menu = document.querySelector('.menu-bars');
+
+menu.addEventListener('click', animatebars);
 
 let animatebars1 = document.querySelector('.linea1');
 let animatebars2 = document.querySelector('.linea2');
@@ -11,10 +13,15 @@ function animatebars(){
     animatebars3.classList.toggle('active-linea3');
     }
 
-let menu = document.querySelector('menu-bars');
+let containerLinks = document.querySelector('.navbar');
+
 
 menu.addEventListener('click', function(){
-alert('funcion')
-menu.classList.toggle('active')
+
+containerLinks.classList.toggle('navbar')
+containerLinks.classList.toggle('navbar-active')
+
     
 });
+
+

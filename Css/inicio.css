@@ -45,7 +45,7 @@
     font-weight: 900;
     white-space: nowrap;
     border-right: 4px solid #D3D0CB;
-    width: 30ch;
+    width: 22ch;
     animation: typing 3s infinite steps(30), blink .5s infinite step-start alternate;
     animation-direction: alternate;
     overflow: hidden;
